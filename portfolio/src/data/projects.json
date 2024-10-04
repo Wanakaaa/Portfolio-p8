@@ -1,0 +1,56 @@
+[
+    {
+      "id": "projet1",
+      "name": "Booki",
+      "description": {
+        "shortDescription":"Intégration de la page d'accueil de l'agence de voyage Booki. Interface responsive.",
+        "longDescription": "lorem100"
+      },
+      "stack": ["HTML", "CSS"],
+      "sourceCode": "https://github.com",
+      "livePreview": "https://github.com",
+      "cover": "/images/projects/project1-booki/booki2.png",
+      "images": {
+        "desktop": "/images/projects/project1-booki/booki-desktop.png",
+        "tablet": "/images/projects/project1-booki/booki-tablet.png",
+        "mobile": "/images/projects/project1-booki/booki-mobile.png"
+      },
+      "githubLink": "testGitHub",
+      "liveLink": "testLiveLink"
+    },
+    {
+      "id": "projet2",
+      "name": "Sophie Bluel",
+      "description": {
+        "shortDescription":"Développement du portfolio de l'architecte d'intérieur Sophie Bluel.  Le projet comprenait la création de la page de présentation de ses travaux, une page de connexion pour l'administrateur, et une modale pour uploader de nouveaux médias.",
+        "longDescription": "lorem100"
+      },
+      "stack": ["JavaScript", "API REST", "Swagger"],
+      "sourceCode": "https://github.com",
+      "livePreview": "https://github.com",
+      "cover": "/images/projects/project2-sophiebluel/SB2.png",
+      "images": {
+        "desktop": "/images/projects/project1-booki/booki-desktop.png"
+      },
+      "githubLink": "testGitHub",
+      "liveLink": "testLiveLink"
+    },
+    {
+      "id": "projet3",
+      "name": "Kasa",
+      "description": {
+        "shortDescription":"Développement du portfolio de l'architecte d'intérieur Sophie Bluel.  Le projet comprenait la création de la page de présentation de ses travaux, une page de connexion pour l'administrateur, et une modale pour uploader de nouveaux médias.",
+        "longDescription": "lorem100"
+      },
+      "stack": ["SASS", "TypeScript", "React"],
+      "sourceCode": "https://github.com",
+      "livePreview": "https://github.com",
+      "cover": "/images/projects/project3-kasa/kasa2.png",
+      "images": {
+        "desktop": 
+          "/images/projects/project1-booki/booki-desktop.png"
+      },
+      "githubLink": "testGitHub",
+      "liveLink": "testLiveLink"
+    }
+]

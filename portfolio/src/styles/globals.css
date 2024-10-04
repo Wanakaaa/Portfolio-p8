@@ -1,0 +1,29 @@
+@tailwind base;       /* Définition des styles de base, comme le reset CSS */
+@tailwind components; /* Classes pour les composants, comme .btn, .card, etc. */
+@tailwind utilities;  /* Classes utilitaires (margin, padding, flex, etc.) */
+
+html, body {
+    margin: 0; /* Assurez-vous qu'il n'y a pas de marges par défaut */
+    padding: 0; /* Réinitialise tout padding par défaut */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color:white;
+    padding-top: 0; /* Ajoute explicitement 0 padding */
+    padding-bottom: 3rem;
+}
+
+@layer components {
+    section {
+        @apply p-6
+    }
+
+    h3 {
+        @apply p-2 text-center font-bold mobile:text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl border-2 border-blue-500 m-0;
+      /* @apply text-center font-bold text-2xl mobile:text-lg sm:text-xl md:text-xl lg:text-xl mb-4; h3 sera plus grand sur chaque taille d'écran */
+    }
+    h4 {
+        @apply p-2 text-center font-bold mobile:text-base xs:text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-3xl border-2 border-orange-500 m-0;
+    }
+}

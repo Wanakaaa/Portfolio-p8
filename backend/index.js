@@ -1,0 +1,29 @@
+const express = require('express');
+const cors = require('cors');
+const helmet = require('helmet');
+const morgan = require('morgan');
+
+const app = express();
+const PORT = 5000;
+
+// Importer les routes
+const contactRoute = require('./routes/contact');
+
+// Middleware de sécurité et de gestion
+app.use(helmet());
+app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(express.json());
+app.use(morgan('combined'));
+
+// Route de test pour vérifier que le serveur fonctionne
+app.get('/', (req, res) => {
+  res.send('Backend server is running!');
+});
+
+// Utilisation de la route de contact
+app.use('/contact', contactRoute);
+
+// Démarrage du serveur
+app.listen(PORT, () => {
+  console.log(`Server is running on http://localhost:${PORT}`);
+});
