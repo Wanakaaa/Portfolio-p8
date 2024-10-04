@@ -32,7 +32,7 @@ export function validateFormValues(formValues: FormValues) {
 
 export async function submitForm(formValues: FormValues): Promise<SubmitFormResponse> {
     try {
-        const response = await fetch('http://localhost:5000/contact', {
+        const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/contact`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(formValues),

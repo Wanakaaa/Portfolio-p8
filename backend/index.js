@@ -4,14 +4,32 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 // Importer les routes
 const contactRoute = require('./routes/contact');
 
+// Liste des origines autorisées
+const allowedOrigins = [
+  'http://localhost:3000', // Pour le développement local
+  'https://portfolio-p8-ygbv8zlvi-sarahs-projects-13498ccf.vercel.app' // URL de ton front-end déployé sur Vercel
+];
+
+// Configuration CORS
+app.use(cors({
+  origin: function (origin, callback) {
+    // Autorise uniquement les requêtes provenant des origines dans `allowedOrigins`
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true, // Active cette option si tu gères des sessions ou des cookies entre le front-end et le back-end
+}));
+
 // Middleware de sécurité et de gestion
 app.use(helmet());
-app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(express.json());
 app.use(morgan('combined'));
 
