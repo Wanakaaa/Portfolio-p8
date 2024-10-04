@@ -14,7 +14,7 @@ interface DevicePreviewProps {
 export default function DevicePreview({ images }: DevicePreviewProps) {
     // Détermine les appareils avec des images disponibles
     const availableDevices = Object.entries(images)
-    .filter(([_, value]) => value) // Garde seulement les appareils avec des images
+    .filter(([value]) => value) // Garde seulement les appareils avec des images
     .map(([device]) => device) as ('desktop' | 'tablet' | 'mobile')[]
 
     // Utiliser le 1er appareil dispo par défaut
