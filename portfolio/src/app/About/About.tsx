@@ -9,12 +9,13 @@ export default function About() {
   // const socialKeys = Object.keys(social)
   return (
     <>
-    <section id='about' className='outline outline-cyan-500 bg-indigo-200 w-full flex justify-center items-center'>
+    <section id='about' className='outline outline-cyan-500 bg-indigo-200'>
         
-        <div className='w-[80vw] flex flex-col justify-center border'>
+        <div id='container' className='w-[80vw] flex flex-col justify-center border'>
+        <h1>Sarah, Développeuse Web</h1>
         <AboutPresentation/>
 
-        <div className="flex space-x-4 mt-4">
+        <div className="flex justify-center justify-items-center border gap-2">
         <IconLink
         href='/cv.pdf'
         iconSrc='/icons/cv.svg'

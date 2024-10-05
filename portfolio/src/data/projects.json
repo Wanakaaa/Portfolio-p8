@@ -3,7 +3,7 @@
       "id": "projet1",
       "name": "Booki",
       "description": {
-        "shortDescription":"Intégration de la page d'accueil de l'agence de voyage Booki. Interface responsive.",
+        "shortDescription":"Intégration des maquettes d'un site web responsive pour Booki, agence de voyage. Respect des maquettes desktop, tablette et mobile. Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique.",
         "longDescription": "lorem100"
       },
       "stack": ["HTML", "CSS"],
@@ -22,7 +22,7 @@
       "id": "projet2",
       "name": "Sophie Bluel",
       "description": {
-        "shortDescription":"Développement du portfolio de l'architecte d'intérieur Sophie Bluel.  Le projet comprenait la création de la page de présentation de ses travaux, une page de connexion pour l'administrateur, et une modale pour uploader de nouveaux médias.",
+        "shortDescription":"Développement d'un site dynamique en JavaScript avec gestion des interactions utilisateurs et communication avec une API pour afficher les travaux d’une architecte d’intérieur. Création d’une page de connexion administrateur et d’une modale pour l’ajout de nouveaux projets.",
         "longDescription": "lorem100"
       },
       "stack": ["JavaScript", "API REST", "Swagger"],
@@ -30,7 +30,7 @@
       "livePreview": "https://github.com",
       "cover": "/images/projects/project2-sophiebluel/SB2.png",
       "images": {
-        "desktop": "/images/projects/project1-booki/booki-desktop.png"
+        "desktop": "/images/projects/project2-sophiebluel/SB-desktop.webp"
       },
       "githubLink": "testGitHub",
       "liveLink": "testLiveLink"
@@ -39,7 +39,7 @@
       "id": "projet3",
       "name": "Kasa",
       "description": {
-        "shortDescription":"Développement du portfolio de l'architecte d'intérieur Sophie Bluel.  Le projet comprenait la création de la page de présentation de ses travaux, une page de connexion pour l'administrateur, et une modale pour uploader de nouveaux médias.",
+        "shortDescription":"Développement d’une application de location immobilière avec React et React Router. Mise en place de composants interactifs (carrousel d’images, collapse) et d'une navigation fluide entre les pages.",
         "longDescription": "lorem100"
       },
       "stack": ["SASS", "TypeScript", "React"],

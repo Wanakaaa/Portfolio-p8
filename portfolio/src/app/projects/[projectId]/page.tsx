@@ -17,8 +17,8 @@ export default function Project({ params }: ProjectProps) {
   }
 
   return (
-    <main className="space-y-8 sm:space-y-10 md:space-y-16 lg:space-y-8 px-4 sm:px-6 md:px-8 lg:px-12 outline outline-green-500">
-      {/* Titre du projet */}
+    <main className="space-y-8 sm:space-y-10 md:space-y-16 lg:space-y-8 px-4 sm:px-6 md:px-8 lg:px-12 outline outline-green-500 w-full flex justify-center items-center">
+      <div className='w-[80vw] flex flex-col justify-center border'>{/* Titre du projet */}
       <h3>{project.name}</h3>
 
       {/* Composant DevicePreview pour l'affichage des images */}
@@ -45,6 +45,7 @@ export default function Project({ params }: ProjectProps) {
           alt="Lien vers une prévisualisation du site"
           size={32}
         />
+      </div>
       </div>
     </main>
   );
