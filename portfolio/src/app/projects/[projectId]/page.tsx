@@ -3,6 +3,7 @@ import projectsData from '../../../data/projects.json';
 import DevicePreview from '../../../components/preview/DevicePreview';
 import TechStack from '@/components/project/TechStack';
 import IconLink from '@/components/buttons/IconLink';
+import ProjectDescription from '@/components/project/ProjectDescription';
 
 interface ProjectProps {
   params: { projectId: string };
@@ -17,18 +18,21 @@ export default function Project({ params }: ProjectProps) {
   }
 
   return (
-    <main className="space-y-8 sm:space-y-10 md:space-y-16 lg:space-y-8 px-4 sm:px-6 md:px-8 lg:px-12 outline outline-green-500 w-full flex justify-center items-center">
+    <section >
       <div className='w-[80vw] flex flex-col justify-center border'>{/* Titre du projet */}
-      <h3>{project.name}</h3>
+      <h2>{project.name}</h2>
 
       {/* Composant DevicePreview pour l'affichage des images */}
       <DevicePreview images={project.images} />
 
       {/* Description du projet */}
-      <p className="mb-4">{project.description.longDescription}</p>
+      < ProjectDescription 
+      context={project.description.longDescription.context}
+      mission={project.description.longDescription.mission}
+      realisations={project.description.longDescription.realisations}/>
 
       {/* Stack de technologies */}
-      <h3 className="text-2xl font-semibold mb-2">Technologies utilisées :</h3>
+      <h3>Technologies utilisées</h3>
       <TechStack stack={project.stack} />
 
       {/* Liens GitHub et Live Preview */}
@@ -47,6 +51,6 @@ export default function Project({ params }: ProjectProps) {
         />
       </div>
       </div>
-    </main>
+    </section>
   );
 }

@@ -18,26 +18,26 @@ interface ProjectCardProps {
 export default function ProjectCard({ id, name, cover, description, stack, githubLink, liveLink }: ProjectCardProps) {
   return (
     <div className="border rounded-lg shadow-lg bg-white transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer relative overflow-hidden">
-      <Link href={`/projects/${id}`} className="flex flex-col justify-between p-4 h-full pb-20">
+      <Link href={`/projects/${id}`} className="flex flex-col h-full justify-between">
   {/* Contenu du projet */}
-  <h3>{name}</h3>
+        <h3 className='bg-green-300'>{name}</h3>
 
-  <div className="relative w-full h-24 mb-4">
-    <Image
-      alt={`Logo ${name}`}
-      src={cover}
-      fill
-      sizes="(max-width: 640px) 80vw, (max-width: 768px) 40vw, 26vw"
-      style={{ objectFit: 'contain' }}
-      className='border border-blue-500'
-    />
-  </div>
+        <div className="relative w-full h-24 ">
+          <Image
+            alt={`Logo ${name}`}
+            src={cover}
+            fill
+            sizes="(max-width: 640px) 80vw, (max-width: 768px) 40vw, 26vw"
+            style={{ objectFit: 'contain' }}
+            className='border border-blue-500'
+          />
+        </div>
 
-  <p className="flex-grow text-center">{description}</p>
+        <p className="flex-grow text-center p-4">{description}</p>
 
-  {/* TechStack avec un espacement approprié */}
-  <TechStack stack={stack} />
-</Link>
+          <TechStack stack={stack} />
+
+    </Link>
 
 
       {githubLink && (

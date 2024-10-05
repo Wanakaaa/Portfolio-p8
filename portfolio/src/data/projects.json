@@ -4,7 +4,16 @@
       "name": "Booki",
       "description": {
         "shortDescription":"Intégration des maquettes d'un site web responsive pour Booki, agence de voyage. Respect des maquettes desktop, tablette et mobile. Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique.",
-        "longDescription": "lorem100"
+        "longDescription": {
+          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
+          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "realisations": [
+            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
+            "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
+            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
+            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+          ]
+        }
       },
       "stack": ["HTML", "CSS"],
       "sourceCode": "https://github.com",
@@ -23,7 +32,16 @@
       "name": "Sophie Bluel",
       "description": {
         "shortDescription":"Développement d'un site dynamique en JavaScript avec gestion des interactions utilisateurs et communication avec une API pour afficher les travaux d’une architecte d’intérieur. Création d’une page de connexion administrateur et d’une modale pour l’ajout de nouveaux projets.",
-        "longDescription": "lorem100"
+        "longDescription": {
+          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
+          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "realisations": [
+            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
+            "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
+            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
+            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+          ]
+        }
       },
       "stack": ["JavaScript", "API REST", "Swagger"],
       "sourceCode": "https://github.com",
@@ -40,7 +58,16 @@
       "name": "Kasa",
       "description": {
         "shortDescription":"Développement d’une application de location immobilière avec React et React Router. Mise en place de composants interactifs (carrousel d’images, collapse) et d'une navigation fluide entre les pages.",
-        "longDescription": "lorem100"
+        "longDescription": {
+          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
+          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "realisations": [
+            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
+            "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
+            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
+            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+          ]
+        }
       },
       "stack": ["SASS", "TypeScript", "React"],
       "sourceCode": "https://github.com",

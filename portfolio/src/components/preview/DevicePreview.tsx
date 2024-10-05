@@ -46,6 +46,7 @@ export default function DevicePreview({ images }: DevicePreviewProps) {
             alt={`Image ${currentDevice}`}
             fill
             className="object-contain"
+            priority={true}
           />
         ) : (
           <p className="text-center text-gray-500">Aucune image disponible pour cet appareil.</p>
