@@ -14,13 +14,13 @@ export default function IconLink({ href, iconSrc, alt, size = 32 }: IconLinkProp
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="block border"
+      className="block"
       style={{ width: size, height: size}}
     >
       <Image
-        src={iconSrc} // Chemin vers l'icône (dynamique)
-        alt={alt} // Texte alternatif (dynamique)
-        width={size} // Taille de l'icône (dynamique)
+        src={iconSrc} 
+        alt={alt} 
+        width={size} 
         height={size}
         className="object-contain"
       />

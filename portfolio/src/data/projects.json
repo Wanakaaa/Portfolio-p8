@@ -21,13 +21,13 @@
         }
       },
       "stack": ["HTML", "CSS"],
-      "sourceCode": "https://github.com",
+      "sourceCode": "https://github.com/Wanakaaa/p2.git",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project1-booki/aw-creative.jpg",
+      "cover": "/images/projects/project1-booki/aw-creative.webp",
       "images": {
-        "desktop": "/images/projects/project1-booki/booki-desktop.png",
-        "tablet": "/images/projects/project1-booki/booki-tablet.png",
-        "mobile": "/images/projects/project1-booki/booki-mobile.png"
+        "desktop": "/images/projects/project1-booki/booki-desktop.webp",
+        "tablet": "/images/projects/project1-booki/booki-tablet.webp",
+        "mobile": "/images/projects/project1-booki/booki-mobile.webp"
       },
       "githubLink": "testGitHub",
       "liveLink": "testLiveLink"
@@ -58,9 +58,9 @@
         }
       },
       "stack": ["JavaScript", "API REST", "Swagger", "CSS"],
-      "sourceCode": "https://github.com",
+      "sourceCode": "https://github.com/Wanakaaa/p3.git",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project2-sophiebluel/appartement-paris-x.png",
+      "cover": "/images/projects/project2-sophiebluel/appartement-paris-x.webp",
       "images": {
         "desktop": "/images/projects/project2-sophiebluel/SB-desktop.webp"
       },
@@ -94,12 +94,12 @@
         }
       },
       "stack": ["SASS", "React Router", "React", "JavaScript"],
-      "sourceCode": "https://github.com",
+      "sourceCode": "https://github.com/Wanakaaa/p5.git",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project3-kasa/accommodation-20-1.jpg",
+      "cover": "/images/projects/project3-kasa/accommodation-20-1.webp",
       "images": {
         "desktop": 
-          "/images/projects/project1-booki/booki-desktop.png"
+          "/images/projects/project1-booki/kasa-desktop.webp"
       },
       "githubLink": "testGitHub",
       "liveLink": "testLiveLink"

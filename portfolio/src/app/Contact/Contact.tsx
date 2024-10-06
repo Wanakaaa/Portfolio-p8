@@ -17,7 +17,7 @@ export default function ContactForm() {
     const formValues = Object.fromEntries(new FormData(form).entries()) as unknown as FormValues;
 
     // Reset les messages à chaque soumission
-    setLoading(true);
+  setLoading(true);
   setSuccessMessage('');
   setErrorMessage('');
 
@@ -42,29 +42,22 @@ export default function ContactForm() {
  };
 
   return (
-    <section id="contact" className="bg-blue-100">
+    <section id="contact" className="bg-[#E6F0EB]">
       <div className='w-[80vw] flex flex-col justify-center border'>
         <h2 className="text-center mb-4">Contact</h2>
         <form onSubmit={onSubmit} className="space-y-4">
-          {/* Name & Email */}
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <TextInput label='Nom:' name='name' type='text' className="border p-2 w-full rounded-lg" />
             <TextInput label="Email:" name="email" type="email" className="border p-2 w-full rounded-lg" />
           </div>
-    
-          {/* Message */}
           <TextareaInput label="Message:" name='message' />
-
-    
-          {/* Champ honeypot caché */}
           <div style={{ display: 'none' }}>
             <label>
               Leave this field empty:
               <input type="text" name="honeypot" />
             </label>
-          </div>
-    
-          {/* Conteneur flex pour centrer le bouton */}
+          </div>   
           <div className="flex justify-center">
             <button
               disabled={loading}
@@ -75,7 +68,6 @@ export default function ContactForm() {
             </button>
           </div>
     
-          {/* Affichage des messages de succès et d'erreur */}
           {successMessage && <p className="text-green-500">{successMessage}</p>}
           {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         </form>

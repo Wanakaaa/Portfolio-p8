@@ -1,16 +1,16 @@
-@tailwind base;       /* Définition des styles de base, comme le reset CSS */
-@tailwind components; /* Classes pour les composants, comme .btn, .card, etc. */
-@tailwind utilities;  /* Classes utilitaires (margin, padding, flex, etc.) */
+@tailwind base;       
+@tailwind components; 
+@tailwind utilities;  
 
 html, body {
-    margin: 0; /* Assurez-vous qu'il n'y a pas de marges par défaut */
-    padding: 0; /* Réinitialise tout padding par défaut */
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color:white;
-    padding-top: 0; /* Ajoute explicitement 0 padding */
+    background-color: #F7FAFC;
+    padding-top: 0; 
     padding-bottom: 3rem;
 }
 

@@ -8,19 +8,19 @@ export default function About() {
   const { social } = aboutData
   return (
     <>
-    <section id='about' className='outline outline-cyan-500 bg-indigo-200'>
+    <section id='about' className='bg-[#F7FAFC]'>
         
         <div id='container' className='w-[80vw] flex flex-col justify-center border'>
         <h1>Sarah, Développeuse Web</h1>
         <AboutPresentation/>
 
         <div className="flex justify-center justify-items-center border gap-2 p-2">
-        <IconLink
+        {/* <IconLink
         href='/cv.pdf'
         iconSrc='/icons/cv.svg'
         alt="CV"
         size={32}
-        />
+        /> */}
         {Object.keys(social).map((key) => (
           <IconLink
           key={key}
