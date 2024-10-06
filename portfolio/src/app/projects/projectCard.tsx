@@ -85,7 +85,7 @@ export default function ProjectCard({ id, name, cover, description, stack, githu
     <div className='md:flex gap-0 w-full transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer relative overflow-hidden'>
     <Link href={`/projects/${id}`} className="w-full">
       <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-[auto_1fr_1fr_1fr] border border-black md:h-[300px]">
-        <h3 className="col-span-3 border bg-green-600">{name}</h3>
+        <h3 className="col-span-3 border bg-green-500">{name}</h3>
         
         <div className="col-span-3 row-span-3 col-start-1 row-start-2 border  border-red-700 flex items-center px-2">
           {description}
