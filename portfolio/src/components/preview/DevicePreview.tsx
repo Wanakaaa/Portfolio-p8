@@ -26,7 +26,7 @@ export default function DevicePreview({ images }: DevicePreviewProps) {
   return (
     <div className="flex flex-col items-center">
       {/* Boutons de sélection de l'appareil */}
-      <div className="flex justify-center gap-4 w-full border-x border-t border-gray-300 rounded-t-lg shadow-gray-300 shadow-none">
+      <div className="flex justify-start  w-full border-x border-t border-gray-300 rounded-t-lg shadow-gray-300 shadow-none">
         {availableDevices.map((device) => (
           <DeviceButton
             key={device}

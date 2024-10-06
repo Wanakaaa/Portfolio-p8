@@ -1,7 +1,10 @@
 {
     "name": "Sarah Colin",
     "role": "Développeur Web",
-    "description": "Je termine actuellement une formation en développement web avec OpenClassrooms, dans le cadre d'une reconversion professionnelle. Durant cette formation, j'ai acquis une solide base en HTML, CSS, SCSS, JavaScript, et React, et j'ai travaillé sur plusieurs projets concrets./Je suis votre développeuse web.  (En reconversion professionnelle, actuellement en fin de formation chez OpenClassrooms). Avant de me lancer dans le développement, j'ai eu l'opportunité de travailler dans divers secteurs, en France et à l’étranger, ce qui m’a permis d’acquérir une forte capacité d’adaptation. Curieuse et motivée, j’ai rapidement acquis des compétences en HTML, CSS, JavaScript, React, et Node.js. Je suis à la recherche d’un poste où je pourrai continuer à apprendre, tout en apportant ma polyvalence et mon dynamisme à une équipe.",
+    "description": [
+      "Je conçois des sites modernes, performants et adaptés aux besoins spécifiques de chaque projet. Que ce soit en front-end avec HTML, CSS, JavaScript ou React, ou en back-end avec Node.js et Express, je développe des solutions complètes et optimisées pour offrir la meilleure expérience utilisateur.",
+      "Mon objectif : rejoindre une équipe dynamique où je pourrai exploiter ma polyvalence technique pour relever des défis complexes et contribuer au succès de projets ambitieux. Ce qui me motive avant tout, c'est de transformer des concepts en produits web aboutis, tout en collaborant avec des équipes passionnées pour construire des interfaces intuitives et des back-ends robustes."
+    ],
     "email": "srh.colin@gmail.com",
     "resume": "https://example.com",
     "social": {

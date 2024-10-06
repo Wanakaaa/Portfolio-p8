@@ -5,15 +5,15 @@ import Realisations from './Realisations'
 
 interface ProjectDescriptionProps {
     context: string
-    mission: string
+    missions: string[]
     realisations: string[]
 }
 
-export default function ProjectDescription({ context, mission, realisations }: ProjectDescriptionProps) {
+export default function ProjectDescription({ context, missions, realisations }: ProjectDescriptionProps) {
     return (
         <div className="project-description my-6">
           {context && <Context content={context} />}
-          {mission && <Mission content={mission} />}
+          {missions && missions.length > 0 && <Mission points={missions} />}
           {realisations && realisations.length > 0 && <Realisations points={realisations} />}
         </div>
       );

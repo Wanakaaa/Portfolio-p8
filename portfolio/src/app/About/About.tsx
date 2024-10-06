@@ -15,7 +15,7 @@ export default function About() {
         <h1>Sarah, Développeuse Web</h1>
         <AboutPresentation/>
 
-        <div className="flex justify-center justify-items-center border gap-2">
+        <div className="flex justify-center justify-items-center border gap-2 p-2">
         <IconLink
         href='/cv.pdf'
         iconSrc='/icons/cv.svg'
@@ -24,9 +24,9 @@ export default function About() {
         />
         {Object.keys(social).map((key) => (
           <IconLink
-          key={key} // Clé de la propriété (ex: 'linkedin')
-          href={social[key as keyof typeof social]} // Utilisation de `keyof`
-          iconSrc={`/icons/${key}.svg`} // Génère dynamiquement le chemin de l'icône
+          key={key}
+          href={social[key as keyof typeof social]}
+          iconSrc={`/icons/${key}.svg`}
           alt={key}
           size={32}  
           />

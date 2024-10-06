@@ -3,22 +3,27 @@
       "id": "projet1",
       "name": "Booki",
       "description": {
-        "shortDescription":"Intégration des maquettes d'un site web responsive pour Booki, agence de voyage. Respect des maquettes desktop, tablette et mobile. Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique.",
+        "shortDescription":"Intégration de la page d'accueil de Booki, plateforme de réservation d’hébergements et d’activités touristiques. Mise en place d’un design responsive fidèle aux maquettes pour desktop, tablette et mobile, en respectant les bonnes pratiques d’accessibilité et de sémantique.",
         "longDescription": {
-          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
-          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "context": "Booki est une plateforme de réservation d'hébergements et d'activités touristiques, offrant aux utilisateurs la possibilité de trouver facilement des logements et des activités dans la ville de leur choix. L’objectif de ce projet était de créer une page d'accueil fidèle aux maquettes fournies pour desktop, tablette et mobile, en mettant l'accent sur l'accessibilité et en assurant une structure sémantique claire et optimisée.",
+          "missions": [
+            "Intégrer les maquettes Figma en HTML et CSS en respectant les spécifications de design.",
+            "Structurer le code de manière claire et maintenable pour assurer la lisibilité et faciliter les évolutions futures.",
+            "Mettre en place un design responsive pour s'adapter à toutes les résolutions (desktop, tablette et mobile).",
+            "Respecter les normes d’accessibilité pour assurer une navigation intuitive et conforme aux standards."
+          ],
           "realisations": [
-            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
+            "Intégration complète du site pour desktop, tablette et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
             "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
-            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
-            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+            "Application des bonnes pratiques d’accessibilité et d’organisation sémantique pour garantir une interface accessible.",
+            "Validation du code HTML et CSS auprès du W3C pour assurer la conformité avec les normes du web."
           ]
         }
       },
       "stack": ["HTML", "CSS"],
       "sourceCode": "https://github.com",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project1-booki/booki2.png",
+      "cover": "/images/projects/project1-booki/aw-creative.jpg",
       "images": {
         "desktop": "/images/projects/project1-booki/booki-desktop.png",
         "tablet": "/images/projects/project1-booki/booki-tablet.png",
@@ -31,22 +36,31 @@
       "id": "projet2",
       "name": "Sophie Bluel",
       "description": {
-        "shortDescription":"Développement d'un site dynamique en JavaScript avec gestion des interactions utilisateurs et communication avec une API pour afficher les travaux d’une architecte d’intérieur. Création d’une page de connexion administrateur et d’une modale pour l’ajout de nouveaux projets.",
+        "shortDescription":"Développement d’un site dynamique pour l’architecte d’intérieur Sophie Bluel, avec récupération et affichage des projets via une API. Création d’une interface administrateur avec connexion sécurisée et d’une modale pour gérer les projets (ajout, suppression, modification) tout en gérant les erreurs pour une expérience utilisateur fluide.",
         "longDescription": {
-          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
-          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "context": "Le projet a été réalisé pour le compte de l’architecte d’intérieur Sophie Bluel, avec pour objectif de transformer la page statique existante en un site interactif et dynamique. Les fonctionnalités clés incluent l'affichage dynamique des travaux via une API, la création d’une page de connexion pour l’administrateur, et la gestion des projets via une modale. Le tout a été réalisé en communiquant avec un back-end existant pour persister les données.",
+          "missions": [
+            "Développer la page de présentation des travaux de l'architecte en JavaScript en partant du HTML fourni.",
+            "Mettre en place les appels API pour afficher dynamiquement les projets et filtrer les travaux par catégorie.",
+            "Créer la page de connexion pour l'administrateur avec gestion de session.",
+            "Implémenter une modale interactive permettant d’ajouter, de modifier et de supprimer des projets.",
+            "Organiser le code de manière claire et maintenable pour faciliter les évolutions futures.",
+            "Gérer les erreurs de récupération et d’envoi de données pour informer l’utilisateur en cas de problème."
+          ],
           "realisations": [
-            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
-            "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
-            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
-            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+            "Intégration complète de la galerie de projets, avec récupération dynamique des travaux depuis l'API.",
+            "Mise en place d’un filtrage dynamique par catégorie sans rechargement de page.",
+            "Développement de la page de connexion avec gestion de session sécurisée.",
+            "Création d’une modale fonctionnelle pour ajouter, modifier et supprimer des travaux, avec mise à jour du DOM en temps réel.",
+            "Gestion des erreurs d’affichage et de connexion pour garantir une expérience utilisateur fluide.",
+            "Validation de la persistance des sessions et gestion des accès administrateur."
           ]
         }
       },
-      "stack": ["JavaScript", "API REST", "Swagger"],
+      "stack": ["JavaScript", "API REST", "Swagger", "CSS"],
       "sourceCode": "https://github.com",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project2-sophiebluel/SB2.png",
+      "cover": "/images/projects/project2-sophiebluel/appartement-paris-x.png",
       "images": {
         "desktop": "/images/projects/project2-sophiebluel/SB-desktop.webp"
       },
@@ -57,22 +71,32 @@
       "id": "projet3",
       "name": "Kasa",
       "description": {
-        "shortDescription":"Développement d’une application de location immobilière avec React et React Router. Mise en place de composants interactifs (carrousel d’images, collapse) et d'une navigation fluide entre les pages.",
+        "shortDescription":"Développement d’une application web pour la plateforme de location immobilière Kasa. Création de pages dynamiques en React, gestion de la navigation avec React Router et mise en place de composants réutilisables. Intégration des maquettes Figma et implémentation d’animations CSS pour une expérience utilisateur moderne.",
         "longDescription": {
-          "context": "Booki est une start-up spécialisée dans la recherche d'hébergements et d'activités touristiques. L'objectif de ce projet était de créer l'interface utilisateur d'un site web permettant aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix. Ce projet avait pour but de tester mes compétences en intégration responsive en utilisant HTML et CSS tout en respectant les spécifications et les standards de développement.",
-          "mission": "En tant que développeuse web, j'étais en charge de l'intégration de toutes les maquettes (desktop, tablette, et mobile) en HTML et CSS. J'ai collaboré avec l'équipe technique et design pour assurer une cohérence visuelle et technique. J'ai également structuré le projet en respectant les bonnes pratiques de découpage de maquettes, d'optimisation des styles, et d'accessibilité. Lors de la soutenance, j'ai expliqué mes choix techniques, montré le code source en détaillant la structure et les points techniques abordés.",
+          "context": "Ce projet a été réalisé pour le compte de Kasa, une entreprise de location d’appartements entre particuliers. L’objectif principal était de développer une interface front-end en React en se basant sur les maquettes Figma, tout en respectant les bonnes pratiques de développement. L’application devait inclure une navigation fluide entre les pages (accueil, à propos, détails des logements) et proposer des composants interactifs comme un carrousel d’images et des menus déroulants (collapses) pour offrir une expérience utilisateur moderne et intuitive. Le projet a été réalisé à partir de données simulées extraites d’un fichier JSON, en l’absence d’un back-end complet.",
+          "missions": [
+            "Développer l'interface utilisateur en React en respectant les maquettes fournies, tout en adoptant une structure de code modulaire et réutilisable.",
+            "Configurer le routage de l’application avec React Router pour naviguer entre les différentes pages.",
+            "Créer des composants dynamiques (carrousel, collapses, cartes de propriétés) pour afficher les informations des logements de manière interactive.",
+            "Intégrer les données provenant d’un fichier JSON pour simuler les annonces immobilières.",
+            "Styliser l’interface avec Sass et implémenter des animations CSS pour améliorer l’expérience utilisateur.",
+            "Gérer les erreurs de navigation pour rediriger les utilisateurs vers une page d’erreur en cas de route invalide."
+            
+          ],          
           "realisations": [
-            "Intégration complète du site en version desktop, tablette, et mobile, avec une attention particulière à l'adaptation des contenus pour chaque résolution.",
-            "Mise en place d'une structure de fichiers HTML et CSS claire et maintenable, facilitant la lisibilité du code.",
-            "Validation du code auprès du W3C pour garantir la conformité avec les normes du web.",
-            "Création d'une navigation fluide et intuitive, tout en appliquant les bonnes pratiques d'accessibilité et de sémantique."
+            "Développement de l’interface complète en React, en respectant les maquettes Figma fournies.",
+            "Navigation entre les pages optimisée avec React Router, permettant la gestion de la navigation entre les pages principales ainsi que les erreurs de route.",
+            "Mise en place de composants réutilisables et dynamiques pour structurer et présenter les informations de manière interactive.",
+            "Simulation des données grâce à l’intégration d’un fichier JSON, permettant de tester le rendu des annonces immobilières en l’absence de back-end.",
+            "Implémentation de transitions CSS pour des interactions visuelles conformes aux attentes des maquettes.",
+            "Gestion des erreurs de navigation avec une redirection vers la page 404 pour assurer un comportement cohérent même en cas d’URL incorrecte."
           ]
         }
       },
-      "stack": ["SASS", "TypeScript", "React"],
+      "stack": ["SASS", "React Router", "React", "JavaScript"],
       "sourceCode": "https://github.com",
       "livePreview": "https://github.com",
-      "cover": "/images/projects/project3-kasa/kasa2.png",
+      "cover": "/images/projects/project3-kasa/accommodation-20-1.jpg",
       "images": {
         "desktop": 
           "/images/projects/project1-booki/booki-desktop.png"

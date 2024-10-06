@@ -1,14 +1,20 @@
 import React from 'react'
 
 interface MissionProps {
-    content: string
+    points: string[]
 }
 
-export default function Mission({ content }: MissionProps) {
+export default function Mission({ points }: MissionProps) {
   return (
     <div>
         <h3>Missions</h3>
-        <p>{content}</p>
+        <ul>
+            {points.map((point, index) => (
+                <li
+                 key={index}
+                 >{point}</li>
+            ))}
+        </ul>
     </div>
   )
 }
