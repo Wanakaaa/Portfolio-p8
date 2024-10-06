@@ -6,7 +6,6 @@ import AboutPresentation from '@/components/about/AboutPresentation';
 
 export default function About() {
   const { social } = aboutData
-  // const socialKeys = Object.keys(social)
   return (
     <>
     <section id='about' className='outline outline-cyan-500 bg-indigo-200'>

@@ -18,6 +18,7 @@ const config: Config = {
         '2xl': '1536px',
       },
       colors: {
+        clair: "#E2F1E7",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

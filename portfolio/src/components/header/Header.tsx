@@ -15,12 +15,12 @@ export default function Header() {
 
   return (
     <header
-      className={`flex justify-between items-center p-4 md:p-6 bg-gray-800 text-white w-full top-0 z-10 shadow-md ${
+      className={`flex justify-between items-center p-4 md:p-6 bg-gradient-to-r from-[#629584] to-[#387478] text-[#E2F1E7] w-full top-0 z-10 shadow-md ${
         isOpen ? 'mb-16' : 'mb-4 md:mb-8'
       }`}
     >
       {/* Logo */}
-      <div className="text-lg md:text-xl lg:text-2xl">
+      <div className="text-2xl">
         <Link href="/">S.C</Link>
       </div>
 
@@ -41,7 +41,7 @@ export default function Header() {
       <div
         className={`${
           isOpen ? 'flex' : 'hidden'
-        } absolute top-16 left-0 w-full bg-gray-800 md:hidden justify-center items-center text-center`}
+        } absolute top-16 left-0 w-full bg-gradient-to-r from-[#629584] to-[#387478] md:hidden justify-center items-center text-center`}
       >
         <Navbar />
       </div>
