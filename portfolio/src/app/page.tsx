@@ -20,12 +20,10 @@ import About from './About/About';
 import ProjectsList from './projects/projectsList';
 import Skills from './skills/skills';
 import Contact from './Contact/Contact';
-import Section from '../components/Section'; // Ajoute l'importation de `Section`
-
+import Section from '../components/Section'; 
 export default function Home() {
   return (
     <main className="outline-2 outline-green-900">
-      {/* Ajoute chaque section avec l'ID correspondant */}
       <Section id="about">
         <About />
       </Section>

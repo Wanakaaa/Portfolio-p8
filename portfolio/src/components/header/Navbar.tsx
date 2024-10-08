@@ -2,14 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 import sectionsData from '../../data/sectionsData.json'
 
-interface Section {
-  id: string;
-  href: string;
-  label: string;
-  sectionTitle: string;
-  isMainTitle: boolean;
-}
-
 export default function Navbar() {
   return (
     <nav>
