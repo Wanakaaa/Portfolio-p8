@@ -24,9 +24,9 @@ export default function DevicePreview({ images }: DevicePreviewProps) {
   const deviceImage = images[currentDevice];
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="relative flex flex-col items-center">
 
-      <div className="flex justify-start  w-full border-x border-t border-gray-300 rounded-t-lg shadow-gray-300 shadow-none">
+      <div className="flex justify-start w-full border-x border-t border-gray-300 rounded-t-lg shadow-gray-300 z-10">
         {availableDevices.map((device) => (
           <DeviceButton
             key={device}
@@ -38,13 +38,13 @@ export default function DevicePreview({ images }: DevicePreviewProps) {
         ))}
       </div>
 
-      <div className="relative w-full h-[600px] border-x border-b border-gray-300 rounded-b-lg shadow-md shadow-gray-300">
+      <div className="relative w-full h-[40vh] md:h-[60vh] border-x border-b border-gray-300 rounded-b-lg shadow-md shadow-gray-300">
         {deviceImage ? (
           <Image
             src={deviceImage}
             alt={`Image ${currentDevice}`}
             fill
-            className="object-contain"
+            className="object-contain p-4"
             priority={true}
           />
         ) : (
@@ -54,3 +54,4 @@ export default function DevicePreview({ images }: DevicePreviewProps) {
     </div>
   );
   }
+

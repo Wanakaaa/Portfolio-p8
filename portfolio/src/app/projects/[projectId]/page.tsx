@@ -18,8 +18,8 @@ export default function Project({ params }: ProjectProps) {
   }
 
   return (
-    <section >
-      <div className='w-[80vw] flex flex-col justify-center border gap-2'>{/* Titre du projet */}
+    <section className="p-6 w-full flex justify-center items-center gap-4">
+      <div className='w-[80vw] flex flex-col justify-center gap-6 pb-6 '>
       <h2>{project.name}</h2>
 
       {/* Composant DevicePreview pour l'affichage des images */}
@@ -31,23 +31,25 @@ export default function Project({ params }: ProjectProps) {
       missions={project.description.longDescription.missions}
       realisations={project.description.longDescription.realisations}/>
 
-      {/* Stack de technologies */}
+      <div>
       <h3>Technologies utilisées</h3>
-      <TechStack stack={project.stack} />
+      <TechStack stack={project.stack} 
+      className="text-xl bg-blue-700"/>
+      </div>
 
       {/* Liens GitHub et Live Preview */}
       <div className='flex justify-center space-x-4'>
         <IconLink
-          href={project.sourceCode}
+          href={project.githubLink}
           iconSrc='/icons/github.svg'
           alt="Lien vers repository GitHub"
-          size={32}
+          size={40}
         />
         <IconLink
-          href={project.livePreview}
+          href={project.liveLink}
           iconSrc='/icons/eye.svg'
           alt="Lien vers une prévisualisation du site"
-          size={32}
+          size={40}
         />
       </div>
       </div>

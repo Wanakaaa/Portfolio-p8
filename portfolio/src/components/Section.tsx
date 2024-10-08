@@ -19,8 +19,8 @@ export default function Section({ id, children }: SectionProps) {
 
     if (!sectionData) return null
   return (
-    <section id={sectionData.id} className='p-6 w-full flex justify-center items-center bg-pink-400 gap-4'>
-        <div id="section-wrapper" className='bg-blue-200'>
+    <section id={sectionData.id} className='p-2 w-full flex justify-center items-center gap-4'>
+        <div className=' w-[80vw] flex flex-col items-center justify-around gap-6 py-1'>
         {sectionData.isMainTitle ? (
             <h1>{sectionData.sectionTitle}</h1>
         ) : (

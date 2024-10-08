@@ -43,10 +43,10 @@ export default function ContactForm() {
 
   return (
     
-      <div>
+      <div className='border border-green-500 sm:w-[80%] w-full p-6 '>
         <form onSubmit={onSubmit} className="space-y-4">
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
             <TextInput label='Nom:' name='name' type='text' className="border p-2 w-full rounded-lg" />
             <TextInput label="Email:" name="email" type="email" className="border p-2 w-full rounded-lg" />
           </div>

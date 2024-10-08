@@ -9,7 +9,7 @@
 :root {
     --primary-text-color: #00214d;
     /* --secondary-text-color: #41c1d8; */
-    --primary-background-color: ##fffffe;
+    --primary-background-color: #f9f9f9;
     /* --button-bg-color: #4ea27a;
     --button-text-color: #9c6825; */
 
@@ -25,21 +25,12 @@ html, body {
 
 body {
     padding-top: 0; 
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
 }
 
 @layer base {
-
-    /* section {
-        @apply p-6 w-full flex justify-center items-center;
-    } */
-
-    #section-wrapper {
-        @apply w-[80vw] flex flex-col items-center justify-around gap-6 py-6;
-    }
-
     h1, h2 {
-        @apply border p-16 text-4xl font-bold text-center;
+        @apply p-16 text-4xl font-bold text-center;
     }
 
     h1 {
@@ -53,7 +44,7 @@ body {
     }
 
     h3 {
-        @apply bg-cover bg-center text-center p-8;
+        @apply bg-cover bg-center text-center p-12 font-semibold text-xl;
         background-image: url('/canvayell.svg');
     }
 
@@ -69,21 +60,3 @@ body {
         }
     }
 }
-
-/* @layer components {
-    section {
-        @apply p-6 w-full flex justify-center items-center border;
-    }
-
-    h1 {
-        @apply  p-16 rounded-3xl mb-0 text-center font-bold  text-4xl xl:text-5xl;
-    }
-    h2 {
-        @apply p-16 text-center font-bold mb-4 text-xl mobile:text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl border-green-500 m-0;
-    }
-    h3 {
-        @apply p-2 font-semibold text-base mobile:text-base xs:text-lg sm:text-lg md:text-xl m-0;
-    }
-} */
-
-/* bg-[#DEE5ED] */

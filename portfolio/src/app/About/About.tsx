@@ -6,10 +6,9 @@ import AboutPresentation from '@/components/about/AboutPresentation';
 export default function About() {
   const { social } = aboutData;
   return (
-    // <section id='about'>
-    <div className="bg-green-500">
-      {/* <h1>Sarah, Développeuse Web</h1> */}
+    <div className="flex flex-col gap-6">
       <AboutPresentation />
+          
           <div className="flex justify-center gap-2 p-2">
             {Object.keys(social).map((key) => (
               <IconLink
@@ -22,12 +21,6 @@ export default function About() {
             ))}
           </div>
         </div>
-
-
-
-
-      // </section>
-      
   );
 }
 

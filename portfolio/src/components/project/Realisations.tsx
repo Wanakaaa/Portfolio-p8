@@ -8,7 +8,7 @@ export default function Realisations({ points }: RealisationsProps) {
   return (
     <div>
         <h3>Réalisations</h3>
-        <ul>
+        <ul className='px-6'>
             {points.map((point, index) => (
                 <li
                 key={index}

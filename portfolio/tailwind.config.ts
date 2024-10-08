@@ -24,9 +24,6 @@ const config: Config = {
         'button-bg': 'var(--button-bg-color)',
         'button-text': 'var(--button-text-color)',
       },
-      backgroundSize: {
-        '200-150': '200% 150%',
-      }
     },
   },
   plugins: [],

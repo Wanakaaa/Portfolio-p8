@@ -6,12 +6,13 @@ interface MissionProps {
 
 export default function Mission({ points }: MissionProps) {
   return (
-    <div>
+    <div >
         <h3>Missions</h3>
-        <ul>
+        <ul className='px-6'>
             {points.map((point, index) => (
                 <li
                  key={index}
+                 className='py-1'
                  >{point}</li>
             ))}
         </ul>
