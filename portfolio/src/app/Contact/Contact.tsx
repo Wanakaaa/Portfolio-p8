@@ -42,9 +42,8 @@ export default function ContactForm() {
  };
 
   return (
-    <section id="contact">
-      <div  id='section-wrapper'>
-      <h2>Contact</h2>
+    
+      <div>
         <form onSubmit={onSubmit} className="space-y-4">
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -72,6 +71,6 @@ export default function ContactForm() {
           {errorMessage && <p className="text-red-500">{errorMessage}</p>}
         </form>
       </div>
-    </section>
+
   );
 }

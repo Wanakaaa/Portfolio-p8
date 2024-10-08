@@ -4,10 +4,7 @@ import SkillsLogo from '../../data/skills.json';
 
 export default function Skills() {
   return (
-    <section id='skills'>
-      <div id='section-wrapper'>
-      <h2>Skills</h2>
-
+      <div>
         <div className="border border-green-500 w-[80%] flex justify-center flex-wrap gap-6">
           {/* <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6'> */}
             {SkillsLogo.map((skill, index) => (
@@ -30,6 +27,5 @@ export default function Skills() {
             ))}
         </div>
       </div>
-    </section>
   );
 }

@@ -4,10 +4,8 @@ import ProjectCard from './projectCard'
 
 export default function ProjectsList() {
   return (
-    <>
-      <section id='projects' className='outline outline-pink-500 '>
-        <div id='section-wrapper'>
-          <h2>Projets</h2>
+  
+        <div>
             <ul className="flex flex-col gap-4 w-full">
                 {projectsData.map((project) => (
                   <li key={project.id} className="list-none">
@@ -24,8 +22,6 @@ export default function ProjectsList() {
                 ))}
             </ul>
         </div>
-    </section>
-    </>
   )
 }
 

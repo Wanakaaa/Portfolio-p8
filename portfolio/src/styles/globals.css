@@ -30,9 +30,9 @@ body {
 
 @layer base {
 
-    section {
+    /* section {
         @apply p-6 w-full flex justify-center items-center;
-    }
+    } */
 
     #section-wrapper {
         @apply w-[80vw] flex flex-col items-center justify-around gap-6 py-6;

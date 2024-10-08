@@ -6,9 +6,9 @@ import AboutPresentation from '@/components/about/AboutPresentation';
 export default function About() {
   const { social } = aboutData;
   return (
-    <section id='about'>
-    <div id='section-wrapper' className="w-[80vw] flex flex-col border items-center">
-      <h1>Sarah, Développeuse Web</h1>
+    // <section id='about'>
+    <div className="bg-green-500">
+      {/* <h1>Sarah, Développeuse Web</h1> */}
       <AboutPresentation />
           <div className="flex justify-center gap-2 p-2">
             {Object.keys(social).map((key) => (
@@ -23,11 +23,10 @@ export default function About() {
           </div>
         </div>
 
-        {/* Divider courbé derrière */}
 
 
 
-      </section>
+      // </section>
       
   );
 }

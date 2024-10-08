@@ -14,7 +14,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Header principal */}
       <header className="w-full shadow-md z-10 bg-white">
         <div className="flex justify-between items-center p-4 md:p-6 w-full">
           {/* Logo ou Texte de lien vers la page d'accueil */}
