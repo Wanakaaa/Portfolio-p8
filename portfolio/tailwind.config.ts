@@ -18,12 +18,30 @@ const config: Config = {
         '2xl': '1536px',
       },
       colors: {
-        clair: "#E2F1E7",
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'primary-text': 'var(--primary-text-color)',
+        'secondary-text': 'var(--secondary-text-color)',
+        'primary-bg': 'var(--primary-background-color)',
+        'button-bg': 'var(--button-bg-color)',
+        'button-text': 'var(--button-text-color)',
       },
+      backgroundSize: {
+        '200-150': '200% 150%',
+      }
     },
   },
   plugins: [],
 };
 export default config;
+
+        // 'blue-primary': '#00214d',
+        // 'green-primary': '#00ebc7',
+        // 'green-transparent': 'rgba(0, 235, 199, 0.43)',
+        // 'pink2': '#ff5470',
+        // 'pink-transparent': 'rgba(255, 84, 112, 0.43)',
+        // 'pink-transparent-plus': 'rgba(255, 84, 112, 0.20)',
+        // 'yellow-transparent': 'rgba(253, 226, 79, 0.43)',
+        // 'text-primary': '#00214D',
+        // 'background-primary': '#F7FAFC',
+        // clair: "#E6F0EB",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",

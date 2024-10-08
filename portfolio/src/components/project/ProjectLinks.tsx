@@ -53,7 +53,7 @@ interface ProjectLinkProps {
 export default function ProjectLinks({ href, iconSrc, alt }: ProjectLinkProps) {
 
     return (
-        <div className='bg-yellow-300 p-2 w-full flex justify-center border-black md:items-center'>
+        <div className=' rounded-tr rounded-br p-2 w-full flex justify-center border-r border-t border-b border-black md:items-center'>
             <a
                 href={href}
                 target="_blank"
@@ -64,7 +64,7 @@ export default function ProjectLinks({ href, iconSrc, alt }: ProjectLinkProps) {
                 alt={alt}
                 width={20}
                 height={20}
-                className="object-contain transition-transform duration-300 ease-in-out hover:rotate-180 border"
+                className="object-contain transition-transform duration-300 ease-in-out hover:rotate-90 "
                 />
             </a>
         </div>

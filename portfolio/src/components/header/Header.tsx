@@ -13,33 +13,33 @@ export default function Header() {
   };
 
   return (
-    <header
-    // className="flex justify-between items-center p-4 md:p-6 bg-gradient-to-r from-[#629584] to-[#387478] text-[#E2F1E7] w-full top-0 z-10 shadow-md"
-      className={`flex justify-between items-center p-4 md:p-6 bg-gradient-to-r from-[#629584] to-[#387478] text-[#E2F1E7] w-full shadow-md ${
-        isOpen ? 'mb-0' : 'mb-0'}`}
-    >
-      <div className="text-2xl">
-        <Link href="/">S.C</Link>
-      </div>
+    <>
+      {/* Header principal */}
+      <header className="w-full shadow-md z-10 bg-white">
+        <div className="flex justify-between items-center p-4 md:p-6 w-full">
+          {/* Logo ou Texte de lien vers la page d'accueil */}
+          <Link href="/" className="text-2xl font-bold tracking-wide">
+            S.C
+          </Link>
 
-      <button
-        className="md:hidden text-3xl focus:outline-none"
-        onClick={toggleMenu}
-      >
-        {isOpen ? <FaTimes /> : <FaBars />}
-      </button>
+          {/* Bouton de menu pour mobile */}
+          <button className="md:hidden text-3xl focus:outline-none" onClick={toggleMenu}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </button>
 
-      <div className="hidden md:flex">
-        <Navbar />
-      </div>
+          {/* Menu de navigation visible sur écrans moyens et grands */}
+          <div className="hidden md:flex">
+            <Navbar />
+          </div>
+        </div>
+      </header>
 
-      <div
-        className={`${
-          isOpen ? 'flex' : 'hidden'
-        } absolute top-16 left-0 w-full bg-gradient-to-r from-[#629584] to-[#387478] md:hidden justify-center items-center text-center`}
-      >
-        <Navbar />
-      </div>
-    </header>
+      {/* Menu mobile : placé naturellement sous le header */}
+      {isOpen && (
+        <nav className="block w-full bg-gray-50 py-4 md:hidden">
+          <Navbar />
+        </nav>
+      )}
+    </>
   );
 }

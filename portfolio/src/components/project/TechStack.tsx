@@ -25,14 +25,17 @@ interface TechStackProps {
 
 export default function TechStack({ stack }: TechStackProps) {
   return (
-    <div className=' bg-pink-200 flex flex-wrap justify-center gap-2 p-2'>
+    
+    <div className='flex flex-wrap justify-center gap-2 p-2'>
         {stack.map((tech, index) => (
             <span 
             key={index}
-            className="outline outline-1 px-2 py-1 bg-blue-200 text-blue-800 rounded gap-2 whitespace-nowrap text-sm font-medium"
+            className="px-2 py-1 bg-pink-transparent-plus rounded gap-2 whitespace-nowrap text-sm font-semibold"
             >{tech}</span>
+            
         ))}
     </div>
+    
   )
 }
 

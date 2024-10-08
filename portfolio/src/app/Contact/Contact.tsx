@@ -42,9 +42,9 @@ export default function ContactForm() {
  };
 
   return (
-    <section id="contact" className="bg-[#E6F0EB]">
-      <div className='w-[80vw] flex flex-col justify-center border'>
-        <h2 className="text-center mb-4">Contact</h2>
+    <section id="contact">
+      <div  id='section-wrapper'>
+      <h2>Contact</h2>
         <form onSubmit={onSubmit} className="space-y-4">
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -62,7 +62,7 @@ export default function ContactForm() {
             <button
               disabled={loading}
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
+              className="bg-blue-500 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
             >
               Envoyer un message
             </button>

@@ -1,0 +1,30 @@
+[
+    {
+      "id": "about",
+      "href": "/#about",
+      "label": "À propos",
+      "sectionTitle": "Sarah, Développeuse Web",
+      "isMainTitle": true
+    },
+    {
+      "id": "projects",
+      "href": "/#projects",
+      "label": "Projets",
+      "sectionTitle": "Mes projets",
+      "isMainTitle": false
+    },
+    {
+      "id": "skills",
+      "href": "/#skills",
+      "label": "Technologies",
+      "sectionTitle": "Mes compétences techniques",
+      "isMainTitle": false
+    },
+    {
+      "id": "contact",
+      "href": "/#contact",
+      "label": "Contact",
+      "sectionTitle": "Me contacter",
+      "isMainTitle": false
+    }
+  ]

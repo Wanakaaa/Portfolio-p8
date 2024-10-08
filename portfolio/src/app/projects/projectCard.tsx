@@ -82,19 +82,19 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ id, name, cover, description, stack, githubLink, liveLink }: ProjectCardProps) {
   return (
-    <div className='md:flex gap-0 w-full transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer relative overflow-hidden'>
+    <div className='md:flex gap-0 w-full rounded transform transition-transform duration-300 hover:scale-105 hover:shadow-xl cursor-pointer relative overflow-hidden'>
     <Link href={`/projects/${id}`} className="w-full">
-      <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-[auto_1fr_1fr_1fr] border border-black md:h-[300px]">
-        <h3 className="col-span-3 border bg-green-500">{name}</h3>
+      <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-[auto_1fr_1fr_1fr] border-l-4 border-y-4 md:h-[300px]">
+        <h3 className="col-span-3 p-4 text-center">{name}</h3>
         
-        <div className="col-span-3 row-span-3 col-start-1 row-start-2 border  border-red-700 flex items-center px-2">
+        <div className="col-span-3 row-span-3 col-start-1 row-start-2  flex items-center px-2">
           {description}
         </div>
         
-        <div className="col-span-3 col-start-1 row-start-5 border border-orange-500 ">
+        <div className="col-span-3 col-start-1 row-start-5  ">
           <TechStack stack={stack}/>
         </div>
-        <div className="col-span-2 row-span-5 col-start-4 row-start-1 border border-blue-700 relative">
+        <div className="col-span-2 row-span-5 col-start-4 row-start-1 relative">
         <Image
                       alt={`Logo ${name}`}
                       src={cover}
@@ -107,7 +107,7 @@ export default function ProjectCard({ id, name, cover, description, stack, githu
       </div>
     </Link>
 
-          <div className='md:w-[40px] border flex md:justify-start md:flex-col bg-green-400'>
+          <div className='md:w-[40px] flex md:justify-start md:flex-col self-start'>
         {githubLink && (
           <ProjectLinks
             href={githubLink}
