@@ -4,7 +4,7 @@ import SkillsLogo from '../../data/skills.json';
 
 export default function Skills() {
   return (
-        <div className="border border-green-500 w-full flex justify-around flex-wrap gap-6 p-4">
+        <div className="border border-pink2 w-full flex justify-around flex-wrap gap-6 p-4">
             {SkillsLogo.map((skill, index) => (
               <div
                 key={index}

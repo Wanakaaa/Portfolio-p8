@@ -43,7 +43,7 @@ export default function ContactForm() {
 
   return (
     
-      <div className='border border-green-500 sm:w-[80%] w-full p-6 '>
+      <div className='border border-green2 w-full p-6 '>
         <form onSubmit={onSubmit} className="space-y-4">
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
@@ -61,7 +61,7 @@ export default function ContactForm() {
             <button
               disabled={loading}
               type="submit"
-              className="bg-blue-500 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
+              className="bg-green-transparent px-4 py-2 rounded-lg hover:bg-green2 transition duration-300"
             >
               Envoyer un message
             </button>

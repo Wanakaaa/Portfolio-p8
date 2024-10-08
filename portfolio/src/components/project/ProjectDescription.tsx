@@ -11,7 +11,7 @@ interface ProjectDescriptionProps {
 
 export default function ProjectDescription({ context, missions, realisations }: ProjectDescriptionProps) {
     return (
-        <div className="project-description">
+        <div className="project-description text-center">
           {context && <Context content={context} />}
           {missions && missions.length > 0 && <Mission points={missions} />}
           {realisations && realisations.length > 0 && <Realisations points={realisations} />}

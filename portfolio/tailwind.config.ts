@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        base: ['18px', '1.2'],
+      },
       screens: {
         'mobile': { max: '350px' }, 
         'xs': { min: '351px', max: '639px' },
@@ -23,6 +26,10 @@ const config: Config = {
         'primary-bg': 'var(--primary-background-color)',
         'button-bg': 'var(--button-bg-color)',
         'button-text': 'var(--button-text-color)',
+        'green2' : '#00ebc7',
+        'green-transparent': 'rgba(0, 235, 199, 0.3)',
+        'pink2': 'rgba(255, 84, 112, 0.43)',
+        'yellow2': 'rgba(253, 226, 79, 0.43)',
       },
     },
   },
@@ -32,9 +39,8 @@ export default config;
 
         // 'blue-primary': '#00214d',
         // 'green-primary': '#00ebc7',
-        // 'green-transparent': 'rgba(0, 235, 199, 0.43)',
         // 'pink2': '#ff5470',
-        // 'pink-transparent': 'rgba(255, 84, 112, 0.43)',
+        //'green-transparent': 'rgba(0, 235, 199, 0.43)',
         // 'pink-transparent-plus': 'rgba(255, 84, 112, 0.20)',
         // 'yellow-transparent': 'rgba(253, 226, 79, 0.43)',
         // 'text-primary': '#00214D',

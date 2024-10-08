@@ -6,7 +6,7 @@ interface Contextprops {
 
 export default function Context({ content }: Contextprops) {
   return (
-    <div className='p-6'>
+    <div>
         <h3>Contexte</h3>
         <p className="text-base">{content}</p>
     </div>

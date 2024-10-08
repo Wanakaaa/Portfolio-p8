@@ -11,7 +11,7 @@ export default function TechStack({ stack, className }: TechStackProps) {
     <div className='flex flex-wrap justify-center gap-2 p-2'>
         {stack.map((tech, index) => (
             <span 
-            key={index} className={`px-2 py-1 rounded bg-blue-200 ${className}`}
+            key={index} className={`px-2 py-1 rounded bg-button-bg ${className}`}
             >{tech}</span>
             
         ))}

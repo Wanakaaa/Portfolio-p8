@@ -11,9 +11,7 @@ export default function Mission({ points }: MissionProps) {
         <ul className='px-6'>
             {points.map((point, index) => (
                 <li
-                 key={index}
-                 className='py-1'
-                 >{point}</li>
+                 key={index}>{point}</li>
             ))}
         </ul>
     </div>

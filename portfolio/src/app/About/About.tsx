@@ -6,10 +6,10 @@ import AboutPresentation from '@/components/about/AboutPresentation';
 export default function About() {
   const { social } = aboutData;
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-6 border border-yellow2">
       <AboutPresentation />
           
-          <div className="flex justify-center gap-2 p-2">
+          <div className="flex justify-center gap-2 p-6">
             {Object.keys(social).map((key) => (
               <IconLink
                 key={key}

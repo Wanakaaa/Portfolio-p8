@@ -18,8 +18,8 @@ export default function Project({ params }: ProjectProps) {
   }
 
   return (
-    <section className="p-6 w-full flex justify-center items-center gap-4">
-      <div className='w-[80vw] flex flex-col justify-center gap-6 pb-6 '>
+    <section className="p-6 w-full flex justify-center items-center gap-4 ">
+      <div className='w-[80vw] flex flex-col justify-center gap-2 pb-6'>
       <h2>{project.name}</h2>
 
       {/* Composant DevicePreview pour l'affichage des images */}
@@ -34,11 +34,11 @@ export default function Project({ params }: ProjectProps) {
       <div>
       <h3>Technologies utilisées</h3>
       <TechStack stack={project.stack} 
-      className="text-xl bg-blue-700"/>
+      className="text-xl bg-blue-200"/>
       </div>
 
       {/* Liens GitHub et Live Preview */}
-      <div className='flex justify-center space-x-4'>
+      <div className='flex justify-around space-x-4 p-2'>
         <IconLink
           href={project.githubLink}
           iconSrc='/icons/github.svg'

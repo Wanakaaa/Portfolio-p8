@@ -8,11 +8,8 @@
 
 :root {
     --primary-text-color: #00214d;
-    /* --secondary-text-color: #41c1d8; */
     --primary-background-color: #f2f2f2;
-    /* --button-bg-color: #4ea27a;
-    --button-text-color: #9c6825; */
-
+    --button-bg-color: rgba(146, 191, 255, 0.4);
 }
 
 html, body {
@@ -25,7 +22,6 @@ html, body {
 
 body {
     padding-top: 0; 
-    /* padding-bottom: 3rem; */
 }
 
 @layer base {
