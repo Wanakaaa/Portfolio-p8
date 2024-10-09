@@ -60,8 +60,7 @@
       "images": {
         "desktop": "/images/projects/project2-sophiebluel/SB-desktop.webp"
       },
-      "githubLink": "https://github.com/Wanakaaa/p3-deployment.git",
-      "liveLink": "https://wanakaaa.github.io/p3-deployment/"
+      "githubLink": "https://github.com/Wanakaaa/p3-deployment.git"
     },
     {
       "id": "projet3",
@@ -90,14 +89,11 @@
         }
       },
       "stack": ["SASS", "React Router", "React", "JavaScript"],
-      "sourceCode": "https://github.com/Wanakaaa/p5.git",
-      "livePreview": "https://github.com",
       "cover": "/images/projects/project3-kasa/accommodation-20-1.webp",
       "images": {
         "desktop": 
           "/images/projects/project3-kasa/kasa-desktop.webp"
       },
-      "githubLink": "testGitHub",
-      "liveLink": "testLiveLink"
+      "githubLink": "https://github.com/Wanakaaa/p5.git"
     }
 ]

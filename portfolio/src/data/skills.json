@@ -4,16 +4,16 @@
         "logo": "/images/skills-logo/html5.svg"
     },
     {
-        "name": "CSS",
-        "logo": "/images/skills-logo/css.svg"
-    },
-    {
         "name": "JavaScript",
         "logo": "/images/skills-logo/js.svg"
     },
     {
         "name": "React",
         "logo": "/images/skills-logo/react-2.svg"
+    },
+    {
+        "name": "Next.js",
+        "logo": "/images/skills-logo/next-js.svg"
     },
     {
         "name": "Node.js",
@@ -24,11 +24,19 @@
         "logo": "/images/skills-logo/express-109.svg"
     },
     {
+        "name": "Postman",
+        "logo": "/images/skills-logo/postman.svg"
+    },
+    {
+        "name": "CSS",
+        "logo": "/images/skills-logo/css.svg"
+    },
+    {
         "name": "Sass",
         "logo": "/images/skills-logo/sass-1.svg"
     },
     {
-        "name": "Postman",
-        "logo": "/images/skills-logo/postman.svg"
+    "name": "Tailwind CSS",
+    "logo": "/images/skills-logo/tailwind.svg"
     }
 ]

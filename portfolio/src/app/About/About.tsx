@@ -24,8 +24,8 @@ export default function About() {
           iconSrc={`/icons/${key}.svg`}
           alt={key}
           size={32}
-              />
-            ))}
+        />
+        ))}
       </div>
     </div>
   );

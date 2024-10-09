@@ -11,7 +11,7 @@ interface ProjectCardProps {
   description: string;
   stack: string[];
   githubLink: string;
-  liveLink: string;
+  liveLink?: string;
 }
 
 export default function ProjectCard({ id, name, cover, description, stack, githubLink, liveLink }: ProjectCardProps) {

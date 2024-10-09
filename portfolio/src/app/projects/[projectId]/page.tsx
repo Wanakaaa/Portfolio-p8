@@ -45,12 +45,14 @@ export default function Project({ params }: ProjectProps) {
           alt="Lien vers repository GitHub"
           size={40}
         />
-        <IconLink
-          href={project.liveLink}
-          iconSrc='/icons/eye.svg'
-          alt="Lien vers une prévisualisation du site"
-          size={40}
-        />
+        {project.liveLink && (
+            <IconLink
+              href={project.liveLink}
+              iconSrc="/icons/eye.svg"
+              alt="Live Preview Link"
+              size={40}
+            />
+        )}
       </div>
       </div>
     </section>
