@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import type { PluginAPI } from 'tailwindcss/types/config';
 
 const config: Config = {
   content: [
@@ -28,12 +29,19 @@ const config: Config = {
         'button-text': 'var(--button-text-color)',
         'green2' : '#00ebc7',
         'green-transparent': 'rgba(0, 235, 199, 0.3)',
+        'green-transparent2': 'rgba(0, 235, 199, 0.6)',
         'pink2': 'rgba(255, 84, 112, 0.43)',
         'yellow2': 'rgba(253, 226, 79, 0.43)',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addBase }: PluginAPI) {
+      addBase({
+        'body': {fontSize: '18px'}
+      })
+    }
+  ],
 };
 export default config;
 

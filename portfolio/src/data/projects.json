@@ -21,8 +21,6 @@
         }
       },
       "stack": ["HTML", "CSS"],
-      "sourceCode": "https://github.com/Wanakaaa/p2.git",
-      "livePreview": "https://github.com",
       "cover": "/images/projects/project1-booki/aw-creative.webp",
       "images": {
         "desktop": "/images/projects/project1-booki/booki-desktop.webp",
@@ -30,7 +28,7 @@
         "mobile": "/images/projects/project1-booki/booki-mobile.webp"
       },
       "githubLink": "https://github.com/Wanakaaa/p2.git",
-      "liveLink": "testLiveLink"
+      "liveLink": "https://wanakaaa.github.io/p2/"
     },
     {
       "id": "projet2",
@@ -58,14 +56,12 @@
         }
       },
       "stack": ["JavaScript", "API REST", "Swagger", "CSS"],
-      "sourceCode": "https://github.com/Wanakaaa/p3.git",
-      "livePreview": "https://github.com",
       "cover": "/images/projects/project2-sophiebluel/appartement-paris-x.webp",
       "images": {
         "desktop": "/images/projects/project2-sophiebluel/SB-desktop.webp"
       },
-      "githubLink": "testGitHub",
-      "liveLink": "testLiveLink"
+      "githubLink": "https://github.com/Wanakaaa/p3-deployment.git",
+      "liveLink": "https://wanakaaa.github.io/p3-deployment/"
     },
     {
       "id": "projet3",
