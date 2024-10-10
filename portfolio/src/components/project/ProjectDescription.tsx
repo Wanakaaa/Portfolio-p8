@@ -16,5 +16,6 @@ export default function ProjectDescription({ context, missions, realisations }: 
           {missions && missions.length > 0 && <Mission points={missions} />}
           {realisations && realisations.length > 0 && <Realisations points={realisations} />}
         </div>
+
       );
     }

@@ -44,15 +44,3 @@ const config: Config = {
   ],
 };
 export default config;
-
-        // 'blue-primary': '#00214d',
-        // 'green-primary': '#00ebc7',
-        // 'pink2': '#ff5470',
-        //'green-transparent': 'rgba(0, 235, 199, 0.43)',
-        // 'pink-transparent-plus': 'rgba(255, 84, 112, 0.20)',
-        // 'yellow-transparent': 'rgba(253, 226, 79, 0.43)',
-        // 'text-primary': '#00214D',
-        // 'background-primary': '#F7FAFC',
-        // clair: "#E6F0EB",
-        // background: "var(--background)",
-        // foreground: "var(--foreground)",

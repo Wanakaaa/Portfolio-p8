@@ -7,8 +7,7 @@ import Section from '../components/Section';
 export default function Home() {
   return (
     <>
-  
-    <main className="outline-2 outline-green-900">
+    <main>
       <Section id="about">
         <About />
       </Section>

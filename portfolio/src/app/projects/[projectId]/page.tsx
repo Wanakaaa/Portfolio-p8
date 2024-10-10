@@ -15,39 +15,44 @@ export default function Project({ params }: ProjectProps) {
 
   if (!project) {
     return <div>Projet non trouvé</div>;
-  }
+  } 
+
+  const { name, description, stack, images, githubLink, liveLink } = project;
 
   return (
+
+    
     <section className="p-6 w-full flex justify-center items-center gap-4 ">
       <div className='w-[80vw] flex flex-col justify-center gap-2 pb-6'>
-      <h2>{project.name}</h2>
+      <h2>{name}</h2>
 
       {/* Composant DevicePreview pour l'affichage des images */}
-      <DevicePreview images={project.images} />
+      <DevicePreview images={images} />
 
       {/* Description du projet */}
       < ProjectDescription 
-      context={project.description.longDescription.context}
-      missions={project.description.longDescription.missions}
-      realisations={project.description.longDescription.realisations}/>
+      context={description.longDescription.context}
+      missions={description.longDescription.missions}
+      realisations={description.longDescription.realisations}/>
+
 
       <div>
       <h3>Technologies utilisées</h3>
-      <TechStack stack={project.stack} 
+      <TechStack stack={stack} 
       className="text-xl bg-blue-200"/>
       </div>
 
       {/* Liens GitHub et Live Preview */}
       <div className='flex justify-around space-x-4 p-2'>
         <IconLink
-          href={project.githubLink}
+          href={githubLink}
           iconSrc='/icons/github.svg'
           alt="Lien vers repository GitHub"
           size={40}
         />
-        {project.liveLink && (
+        {liveLink && (
             <IconLink
-              href={project.liveLink}
+              href={liveLink}
               iconSrc="/icons/eye.svg"
               alt="Live Preview Link"
               size={40}

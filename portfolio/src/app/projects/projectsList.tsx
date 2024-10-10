@@ -7,16 +7,16 @@ export default function ProjectsList() {
   
         <div>
             <ul className="flex flex-col gap-4 w-full">
-                {projectsData.map((project) => (
-                  <li key={project.id} className="list-none">
+                {projectsData.map(({ id, name, cover, description, stack, githubLink, liveLink }) => (
+                  <li key={id} className="list-none">
                     <ProjectCard
-                    id={project.id}
-                    name={project.name}
-                    cover={project.cover}
-                    description={project.description.shortDescription}
-                    stack={project.stack}
-                    githubLink={project.githubLink}
-                    liveLink={project.liveLink}
+                    id={id}
+                    name={name}
+                    cover={cover}
+                    description={description.shortDescription}
+                    stack={stack}
+                    githubLink={githubLink}
+                    liveLink={liveLink}
                     />
                   </li>
                 ))}

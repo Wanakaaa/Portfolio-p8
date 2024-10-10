@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Navbar from './Navbar';
 import Link from 'next/link';
+// import Image from 'next/image';
+// import aboutData from '../../data/about.json'
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,8 +19,13 @@ export default function Header() {
       <header className="w-full shadow-md z-10 bg-white">
         <div className="flex justify-between items-center p-4 md:p-6 w-full">
           {/* Logo ou Texte de lien vers la page d'accueil */}
-          <Link href="/" className="text-2xl font-bold tracking-wide">
-            S.C
+          <Link href="/" className="text-2xl font-bold tracking-wide"> S.C
+            {/* <Image
+            src={aboutData.logo}
+            alt='logo'
+            width={150}
+            height={82}
+            ></Image> */}
           </Link>
 
           {/* Bouton de menu pour mobile */}
