@@ -91,9 +91,10 @@
       "stack": ["SASS", "React Router", "React", "JavaScript"],
       "cover": "/images/projects/project3-kasa/accommodation-20-1.webp",
       "images": {
-        "desktop": 
-          "/images/projects/project3-kasa/kasa-desktop.webp"
+        "desktop": "/images/projects/project3-kasa/kasa-desktop.webp",
+        "mobile": "/images/projects/project3-kasa/kasa-mobile.webp"
       },
-      "githubLink": "https://github.com/Wanakaaa/p5.git"
+      "githubLink": "https://github.com/Wanakaaa/p5.git",
+      "liveLink": "https://wanakaaa.github.io/kasa/"
     }
 ]
