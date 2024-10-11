@@ -12,7 +12,7 @@ const contactRoute = require('./routes/contact');
 // Liste des origines autorisées
 const allowedOrigins = [
   'http://localhost:3000', // Pour le développement local
-  'https://portfolio-p8-ygbv8zlvi-sarahs-projects-13498ccf.vercel.app' // URL de ton front-end déployé sur Vercel
+  'https://portfolio-p8.vercel.app' 
 ];
 
 // Configuration CORS
