@@ -12,8 +12,9 @@ const contactRoute = require('./routes/contact');
 
 // Liste des origines autorisées
 const allowedOrigins = [
-  'http://localhost:3000', // Pour le développement local
-  'https://portfolio-p8.vercel.app' 
+  'http://localhost:3000',
+  'http://localhost:3001', // Pour le développement local
+  'https://portfolio-p8.vercel.app',
 ];
 
 // Configuration CORS
@@ -28,6 +29,8 @@ app.use(cors({
   },
   credentials: true, // Active cette option si tu gères des sessions ou des cookies entre le front-end et le back-end
 }));
+
+app.options('*', cors());
 
 // Middleware de sécurité et de gestion
 app.use(helmet());
