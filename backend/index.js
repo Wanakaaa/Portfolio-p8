@@ -27,7 +27,7 @@ app.use(cors({
       callback(new Error('Not allowed by CORS'));
     }
   },
-  credentials: true, // Active cette option si tu gères des sessions ou des cookies entre le front-end et le back-end
+  credentials: true, // gestion des cookies si je veux add une authentification
 }));
 
 app.use((req, res, next) => {
