@@ -54,7 +54,7 @@ export default function ContactForm() {
           <div style={{ display: 'none' }}>
             <label>
               Leave this field empty:
-              <input type="text" name="honeypot" />
+              <input type="text" name="honp" />
             </label>
           </div>   
           <div className="flex justify-center">
@@ -73,4 +73,4 @@ export default function ContactForm() {
       </div>
 
   );
-}
+} 

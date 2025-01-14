@@ -44,7 +44,7 @@ export async function submitForm(formValues: FormValues): Promise<SubmitFormResp
 
             // Gestion des erreurs spécifiques selon le `errorType`
             switch (errorData.errorType) {
-                case 'honeypot':
+                case 'honp':
                     errorMessage = "Il semble que vous soyez un bot. Le message n'a pas été envoyé.";
                     break;
                 case 'missing_fields':

@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const sendMail = require('./mail');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -45,4 +46,12 @@ app.use('/contact', contactRoute);
 // Démarrage du serveur
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
+  sendMail(
+    'srh.colin@gmail.com',
+    'Test d\'envoi',
+    'Ceci est un email envoyé via Nodemailer depuis ton portfolio.'
+  )
+    .then(() => console.log('Email envoyé avec succès !'))
+    .catch(error => console.log('Erreur lors de l\'envoi de l\'email :', error));
 });
+

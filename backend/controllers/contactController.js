@@ -2,11 +2,11 @@ const sendMail = require('../mail');
 
 // Contrôleur pour traiter le formulaire de contact
 exports.handleContactForm = (req, res) => {
-  const { name, email, message, honeypot } = req.body;
+  const { name, email, message, honp } = req.body;
 
   // Vérifier le champ honeypot (si ce champ est rempli, on bloque l'envoi)
-  if (honeypot) {
-    console.log('Honeypot détecté. Requête bloquée.');
+  if (honp) {
+    console.log('Bot détecté. Requête bloquée.');
     return res.status(400).json({ error: "Bot détecté. Message non envoyé." });
   }
 
@@ -22,10 +22,10 @@ exports.handleContactForm = (req, res) => {
   sendMail(process.env.RECEIVER_EMAIL, 'Nouveau message de contact', `Nom: ${name}\nEmail: ${email}\nMessage: ${message}`)
     .then(() => {
       console.log('Email envoyé avec succès');
-      return res.status(200).json({ message: 'Merci de nous avoir contactés !' });
+      return res.status(200).json({ message: `Merci de m'avoir contacté !`});
     })
     .catch((error) => {
-      console.log('Erreur lors de l\'envoi de l\'email:', error);
-      return res.status(500).json({ error: 'Erreur lors de l\'envoi de l\'email.' });
+      console.log(`Erreur lors de l\'envoi de l\'email:`, error);
+      return res.status(500).json({ error: `Erreur lors de l\'envoi de l\'email.` });
     });
 };
